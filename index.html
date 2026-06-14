@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>מערכת תרגול גיאומטריה, אלגברה ומשולשים - גרסה מגוונת</title>
+    <title>מערכת תרגול גיאומטריה, אלגברה ומשולשים - תרגום מלא</title>
     
     <script>
         window.MathJax = {
@@ -234,7 +234,6 @@
 </div>
 
 <script>
-// פונקציות שרטוט וקטורי דינמיות
 function generateStandardSVG(labelsTop, labelsBottom) {
     return `
     <svg viewBox="0 0 520 250" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff; border: 1px solid #e2e8f0; border-radius: 8px;">
@@ -311,7 +310,7 @@ const translations = {
         dir: 'rtl',
         mainTitle: "מעבדת מאסטר: גיאומטריה, אלגברה ומשולשים (גרסת מבחן מגוונת)",
         historyTitle: "📜 היסטוריה ואבולוציה של מדידת המרחב",
-        historyBody: "הצורך במדידת זוויות נולד במסופוטמיה העתיקה. במאה ה-3 לפנה\"ס, ריכז אוקלידס את חוקי הזוויות בספרו 'היסודות' והפך את הגיאומטריה למערכת לוגית מוחלטת של הוכחות.",
+        historyBody: "הצורך במדידת זוויות נולד במסופוטמיה העתיקה. במאה ה-3 לפנה\"ס, ריכז אוקלידס את חוקי הזוויות בספרו 'היסודות' והפך את الגיאומטריה למערכת לוגית מוחלטת של הוכחות.",
         motivationTitle: "🚀 מוטיבציה: איפה הגיאומטריה פוגשת אותנו בחיים?",
         motivationBody: "זוויות הן התשתית הסמויה מהעין של העולם המודרני: מאדריכלות בניינים, דרך חישובי תלת-ממד במשחקי מחשב ועד ניווט ללווייני (GPS).",
         glossaryTitle: "📐 אנציקלופדיית סוגי הזוויות",
@@ -336,8 +335,68 @@ const translations = {
         btnCheckInline: "🔍 בדוק שאלה זו",
         catAlgebra: "אלגברה + גיאומטריה", catTriangle: "גיאומטריית משולשים", catGeometry: "גיאומטריה קלאסית"
     },
-    ar: { dir: 'rtl', mainTitle: "مختبر الهندسة والجبر والمثلثات المتنوع", historyTitle: "📜 تاريخ وتطور قياس الزوايا", historyBody: "يعود مفهوم قياس الزوايا إلى بلاد ما بين النهرين القديمة.", motivationTitle: "🚀 التطبيقات الحياتية", motivationBody: "تتدخل هندسة الزوايا في بناء الألعاب وتصميم الجسور والخرائط.", glossaryTitle: "📐 موسوعة أنواع الزوايا", acuteName: "زاوية حادة", acuteDesc: "أقل من $90^\\circ$.", rightName: "زاوية قائمة", rightDesc: "تساوي $90^\\circ$.", obtuseName: "زاوية منفرجة", obtuseDesc: "بين $90^\\circ$ و $180^\\circ$.", straightName: "زاوية مستقيمة", straightDesc: "تساوي $180^\\circ$.", reflexName: "زاوية منعكسة", reflexDesc: "بين $180^\\circ$ و $360^\\circ$.", fullName: "زاوية كاملة", fullDesc: "$360^\\circ$.", theoryTitle: "🛣️ نظريات المستقيمات المتوازية والقاطع", theory1: "الزوايا المتجاورة يبلغ مجموعها $180^\\circ$.", theory2: "الزوايا المتبادلة داخلياً متساوية ($X = W$).", theory3: "الزوايا المتبادلة خارجياً متساوية ($Y = Z$).", theory4: "الزوايا المتناظرة تكون متساوية.", labelMainMap: "مخطط الزوايا الهندسي الشامل", quizTitle: "مصفوفة اختبار الجبر والهندسة المتنوعة (20 سؤالاً)", btnRefresh: "🔄 توليد اختبار جديد متنوع", btnSubmit: "✅ تصحيح ورقة الاختبار الكاملة", score: "النتيجة النهائية: ", outOf: "من 20", correct: "إجابة صحيحة!", incorrect: "القيمة غير دقيقة.", explanationHeader: "الإثبات الرياضي:", unanswered: "يرجى تحديد إجابة أولاً!", btnCheckInline: "🔍 تحقق من السؤال", catAlgebra: "الجبر + الهندسة", catTriangle: "نظريات المثلثات", catGeometry: "الهندسة الكلاسيكية" },
-    ru: { dir: 'ltr', mainTitle: "Разноплановая Лаборатория Геометрии и Алгебры", historyTitle: "📜 История и эволюция измерения углов", historyBody: "Концепция измерения углов зародилась в древней Месопотамии.", motivationTitle: "🚀 Практическое применение", motivationBody: "Углы используются в архитектуре, 3D-графике и навигационных системах GPS.", glossaryTitle: "📐 Энциклопедия типов углов", acuteName: "Острый угол", acuteDesc: "Меньше $90^\\circ$.", rightName: "Прямой угол", rightDesc: "Равен ровно $90^\\circ$.", obtuseName: "Тупой угол", obtuseDesc: "Больше $90^\\circ$, но меньше $180^\\circ$.", straightName: "Развернутый угол", straightDesc: "Равен ровно $180^\\circ$.", reflexName: "Выпуклый угол", reflexDesc: "Больше $180^\\circ$, но меньше $360^\\circ$.", fullName: "Полный оборот", fullDesc: "Равен ровно $360^\\circ$.", theoryTitle: "🛣️ Теоремы о параллельных прямых и секущей", theory1: "Смежные углы в сумме дают ровно $180^\\circ$.", theory2: "Накрест лежащие внутренние углы равны ($X = W$).", theory3: "Накрест лежащие внешние углы равны ($Y = Z$).", theory4: "Соответственные углы равны между собой.", labelMainMap: "Полная структурная карта углов", quizTitle: "Разнообразная Матрица Тестирования (20 Уникальных Задач)", btnRefresh: "🔄 Создать Новый Тест", btnSubmit: "✅ Оценить Весь Тест", score: "Результат: ", outOf: "из 20", correct: "Правильно!", incorrect: "Неверно.", explanationHeader: "Математическое обоснование:", unanswered: "Выберите вариант ответа!", btnCheckInline: "🔍 Проверить вопрос", catAlgebra: "Алгебра + Геометрия", catTriangle: "Теория Треугольников", catGeometry: "Чистая Геометрия" }
+    ar: { 
+        dir: 'rtl', 
+        mainTitle: "المختبر المتقدم: الهندسة والجبر والمثلثات (نسخة متنوعة)", 
+        historyTitle: "📜 تاريخ وتطور قياس الزوايا", 
+        historyBody: "يعود مفهوم قياس الزوايا إلى بلاد ما بين النهرين القديمة، وفي القرن الثالث قبل الميلاد، قام إقليدس بتدوين قوانين الزوايا في كتابه 'العناصر'، محولاً الهندسة إلى علم منطقي مطلق.", 
+        motivationTitle: "🚀 التطبيقات الحياتية: أين نلتقي بالهندسة؟", 
+        motivationBody: "الزوايا هي العمود الفقري غير المرئي للعالم الحديث: من هندسة المباني إلى رسومات الألعاب ثلاثية الأبعاد ونظام تحديد المواقع العالمي (GPS).", 
+        glossaryTitle: "📐 موسوعة أنواع الزوايا", 
+        acuteName: "زاوية حادة", acuteDesc: "زاوية أكبر من $0^\\circ$ وأقل من $90^\\circ$.", 
+        rightName: "زاوية قائمة", rightDesc: "زاوية قياسها $90^\\circ$ تماماً ناتجة عن تعامد مستقيمين.", 
+        obtuseName: "زاوية منفرجة", obtuseDesc: "زاوية أكبر من $90^\\circ$ وأقل من $180^\\circ$.", 
+        straightName: "زاوية مستقيمة", straightDesc: "زاوية قياسها $180^\\circ$ تماماً تشكل خطاً مستقيماً.", 
+        reflexName: "زاوية منعكسة", reflexDesc: "زاوية أكبر من $180^\\circ$ وأقل من $360^\\circ$.", 
+        fullName: "زاوية كاملة", fullDesc: "زاوية قياسها $360^\\circ$ تماماً تمثل دورة كاملة.", 
+        theoryTitle: "🛣️ نظريات المستقيمات المتوازية والقاطع", 
+        theory1: "<strong>الزوايا المتكاملة (الخطية):</strong> تقع على مستقيم واحد ومجموعها يساوي $180^\\circ$ تماماً.", 
+        theory2: "<strong>الزوايا المتبادلة داخلياً:</strong> تقع على جانبين مختلفين من القاطع وفي المنطقة الداخلية بين المتوازيين ومتساوية تماماً ($X = W$).", 
+        theory3: "<strong>الزوايا المتبادلة خارجياً:</strong> تقع على جانبين مختلفين من القاطع وخارج المستقيمين المتوازيين ومتساوية ($Y = Z$).", 
+        theory4: "<strong>الزوايا المتناظرة:</strong> تقع في نفس الموقع النسبي عند كل تقاطع وقيمها متطابقة.", 
+        labelMainMap: "المخطط الهندسي الشامل للزوايا البنيوية", 
+        quizTitle: "مصفوفة اختبار الجبر والهندسة المتنوعة (20 سؤالاً فريداً)", 
+        btnRefresh: "🔄 توليد اختبار جديد ومتنوع", 
+        btnSubmit: "✅ تصحيح وتقييم ورقة الاختبار بالكامل", 
+        score: "النتيجة النهائية في النظام: ", outOf: "من 20", 
+        correct: "إجابة صحيحة وممتازة!", 
+        incorrect: "غير دقيق، القيمة المقدرة خاطئة.", 
+        explanationHeader: "الإثبات والبرهان الرياضي:", 
+        unanswered: "يرجى تحديد إجابة أولاً قبل التحقق!", 
+        btnCheckInline: "🔍 تحقق من هذا السؤال", 
+        catAlgebra: "الجبر + الهندسة", catTriangle: "نظريات المثلثات", catGeometry: "الهندسة الكلاسيكية" 
+    },
+    ru: { 
+        dir: 'ltr', 
+        mainTitle: "Мастер-Лаборатория: Геометрия, Алгебра и Треугольники", 
+        historyTitle: "📜 История и эволюция измерения углов", 
+        historyBody: "Измерение углов зародилось в древней Месопотамии. В III веке до н.э. Евклид систематизировал правила углов в своем труде 'Начала', превратив геометрию в абсолютную логическую систему доказательств.", 
+        motivationTitle: "🚀 Практическое применение: где мы встречаем геометрию?", 
+        motivationBody: "Углы — это невидимый каркас современного мира: от архитектуры зданий и 3D-графики в компьютерных играх до спутниковой навигации (GPS).", 
+        glossaryTitle: "📐 Энциклопедия типов углов", 
+        acuteName: "Острый угол", acuteDesc: "Угол больше $0^\\circ$ и меньше $90^\\circ$.", 
+        rightName: "Прямой угол", rightDesc: "Угол, равный ровно $90^\\circ$, образованный перпендикулярными прямыми.", 
+        obtuseName: "Тупой угол", obtuseDesc: "Угол больше $90^\\circ$ и меньше $180^\\circ$.", 
+        straightName: "Развернутый угол", straightDesc: "Угол, равный ровно $180^\\circ$ и образующий прямую линию.", 
+        reflexName: "Выпуклый угол", reflexDesc: "Угол больше $180^\\circ$ и меньше $360^\\circ$.", 
+        fullName: "Полный оборот", fullDesc: "Угол, равный ровно $360^\\circ$ (полный круг).", 
+        theoryTitle: "🛣️ Теоремы о параллельных прямых и секущей", 
+        theory1: "<strong>Смежные углы:</strong> Лежат на одной прямой и в сумме дают ровно $180^\\circ$.", 
+        theory2: "<strong>Накрест лежащие внутренние углы:</strong> Находятся по разные стороны от секущей между параллельными линиями и равны ($X = W$).", 
+        theory3: "<strong>Накрест лежащие внешние углы:</strong> Находятся по разные стороны от секущей снаружи параллельных линий и равны ($Y = Z$).", 
+        theory4: "<strong>Соответственные углы:</strong> Находятся в одинаковом относительном положении на пересечениях и равны.", 
+        labelMainMap: "Полная структурная векторная карта углов", 
+        quizTitle: "Разнообразная Матрица Тестирования (20 Уникальных Задач)", 
+        btnRefresh: "🔄 Создать новый разнообразный тест", 
+        btnSubmit: "✅ Оценить весь тест полностью", 
+        score: "Итоговый результат в системе: ", outOf: "из 20", 
+        correct: "Абсолютно верно!", 
+        incorrect: "Неточно, выбрано неверное значение.", 
+        explanationHeader: "Математическое обоснование и доказательство:", 
+        unanswered: "Пожалуйста, сначала выберите вариант ответа!", 
+        btnCheckInline: "🔍 Проверить этот вопрос", 
+        catAlgebra: "Алгебра + Геометрия", catTriangle: "Теория Треугольников", catGeometry: "Чистая Геометрия" 
+    }
 };
 
 let quizAnswers = [];
@@ -407,121 +466,190 @@ function generateQuiz() {
     quizExplanations = [];
     const data = translations[currentLang];
 
-    // יצירת מאגר של 20 משימות עם סוגים מגוונים לחלוטין (8 תתי-סוגים שונים)
     let questionPool = [];
 
+    // הגדרת מאגרי לוקליזציה לשאלות והסברים (שכתוב מלא ל-4 שפות)
     for (let i = 1; i <= 20; i++) {
         let qItem = {};
-        let subType = i % 8; // חלוקה ל-8 תבניות שונות לחלוטין
+        let subType = i % 8; 
 
-        let baseAcute = Math.floor(Math.random() * 15) + 50; // למשל 55
-        let baseObtuse = 180 - baseAcute; // למשל 125
+        let baseAcute = Math.floor(Math.random() * 15) + 50; 
+        let baseObtuse = 180 - baseAcute; 
 
         if (subType === 0) {
-            // תבנית 1: אלגברה - משוואת שוויון (זוויות מתחלפות חיצוניות)
-            let x = Math.floor(Math.random() * 5) + 15; // x = 15..19
-            let val = 4 * x; // למשל 60
+            let x = Math.floor(Math.random() * 5) + 15; 
+            let val = 4 * x; 
             qItem.badgeType = 'badge-algebra';
             qItem.badgeLabel = data.catAlgebra;
-            qItem.text = currentLang === 'he' 
-                ? `נתונות שתי זוויות מתחלפות חיצוניות: $Y = 4x$ ו-$Z = ${val}^\\circ$. מצא את ערכו של $x$.`
-                : `Given two alternate exterior angles: $Y = 4x$ and $Z = ${val}^\\circ$. Find $x$.`;
-            qItem.exp = `זוויות מתחלפות חיצוניות שוות זו לזו: $4x = ${val} \\Rightarrow x = ${x}$.`;
+            
+            qItem.textMap = {
+                he: `נתונות שתי זוויות מתחלפות חיצוניות בין ישרים מקבילים: $Y = 4x$ ו-$Z = ${val}^\\circ$. מצא את ערכו של $x$.`,
+                en: `Given two alternate exterior angles between parallel lines: $Y = 4x$ and $Z = ${val}^\\circ$. Find the value of $x$.`,
+                ar: `إذا كانت هناك زاويتان متبادلتان خارجياً بين مستقيمين متوازيين: $Y = 4x$ و $Z = ${val}^\\circ$. أوجد قيمة $x$.`,
+                ru: `Даны два накрест лежащих внешних угла при параллельных прямых: $Y = 4x$ и $Z = ${val}^\\circ$. Найдите значение $x$.`
+            };
+            qItem.expMap = {
+                he: `זוויות מתחלפות חיצוניות שוות זו לזו בגודלן, לכן נבנה משוואה: $4x = ${val}$. נחלק ב-4 ונקבל $x = ${x}$.`,
+                en: `Alternate exterior angles are equal in size, so we set up the equation: $4x = ${val}$. Dividing by 4 gives $x = ${x}$.`,
+                ar: `الزوايا المتبادلة خارجياً متساوية في القياس، لذا نكتب المعادلة: $4x = ${val}$. بالقسمة على 4 نجد أن $x = ${x}$.`,
+                ru: `Накрест лежащие внешние углы равны между собой, следовательно: $4x = ${val}$. Разделив на 4, получаем $x = ${x}$.`
+            };
+            
             qItem.ans = `$x = ${x}$`;
             qItem.opts = [qItem.ans, `$x = ${x+2}$`, `$x = ${x-3}$`, `$x = 10$`].sort(() => Math.random() - 0.5);
             qItem.svg = generateStandardSVG({Y: '4x'}, {Z: val + '°'});
         }
         else if (subType === 1) {
-            // תבנית 2: אלגברה - משוואת סכום (זוויות חד-צדדיות פנימיות משלימות ל-180)
             let x = 12;
-            let angle1 = 5 * x; // 60
-            let expr2 = "10x";  // 120
             qItem.badgeType = 'badge-algebra';
             qItem.badgeLabel = data.catAlgebra;
-            qItem.text = currentLang === 'he'
-                ? `באיור שלפניך, שתי זוויות חד-צדדיות פנימיות מיוצגות על ידי $X = 5x$ ו-$W = 10x$. מצא את ערכו של $x$.`
-                : `In the diagram, two consecutive interior angles are $X = 5x$ and $W = 10x$. Find $x$.`;
-            qItem.exp = `זוויות חד-צדדיות פנימיות משלימות יחד ל-$180^\\circ$. לכן: $5x + 10x = 180 \\Rightarrow 15x = 180 \\Rightarrow x = 12$.`;
+            
+            qItem.textMap = {
+                he: `באיור שלפניך, שתי זוויות חד-צדדיות פנימיות מיוצגות על ידי הביטויים $X = 5x$ ו-$W = 10x$. מצא את ערכו של $x$.`,
+                en: `In the diagram, two consecutive interior angles are represented by $X = 5x$ and $W = 10x$. Find the value of $x$.`,
+                ar: `في الشكل أمامك، تم التعبير عن زاويتين داخليتين وفي جهة واحدة من القاطع بالعبارات $X = 5x$ و $W = 10x$. أوجد قيمة $x$.`,
+                ru: `На рисунке два односторонних внутренних угла выражены как $X = 5x$ и $W = 10x$. Найдите значение $x$.`
+            };
+            qItem.expMap = {
+                he: `זוויות חד-צדדיות פנימיות משלימות יחד ל-$180^\\circ$. לכן: $5x + 10x = 180 \\Rightarrow 15x = 180 \\Rightarrow x = 12$.`,
+                en: `Consecutive interior angles add up to $180^\\circ$. Therefore: $5x + 10x = 180 \\Rightarrow 15x = 180 \\Rightarrow x = 12$.`,
+                ar: `الزوايا الداخلية وفي جهة واحدة من القاطع متكاملة (مجموعها $180^\\circ$). إذن: $5x + 10x = 180 \\Rightarrow 15x = 180 \\Rightarrow x = 12$.`,
+                ru: `Внутренние односторонние углы в сумме составляют $180^\\circ$. Следовательно: $5x + 10x = 180 \\Rightarrow 15x = 180 \\Rightarrow x = 12$.`
+            };
+            
             qItem.ans = `$x = 12$`;
             qItem.opts = [qItem.ans, `$x = 10$`, `$x = 15$`, `$x = 8$`].sort(() => Math.random() - 0.5);
             qItem.svg = generateStandardSVG({X: '5x'}, {W: '10x'});
         }
         else if (subType === 2) {
-            // תבנית 3: משולש שווה שוקיים כלוא
-            let baseAngle = Math.floor(Math.random() * 10) + 55; // 55..64
+            let baseAngle = Math.floor(Math.random() * 10) + 55; 
             let vertexAngle = 180 - (2 * baseAngle);
             qItem.badgeType = 'badge-triangle';
             qItem.badgeLabel = data.catTriangle;
-            qItem.text = currentLang === 'he'
-                ? `במשולש שווה שוקיים $ABC$ ($AB=AC$) החסום בין ישרים מקבילים, זווית הבסיס $B$ היא $${baseAngle}^\\circ$. מהי זווית הראש $A$?`
-                : `In an isosceles triangle $ABC$ ($AB=AC$) between parallel lines, the base angle $B$ is $${baseAngle}^\\circ$. What is the vertex angle $A$?`;
-            qItem.exp = `במשולש שווה שוקיים זוויות הבסיס שוות, לכן $C = B = ${baseAngle}^\\circ$. סכום הזוויות הוא $180^\\circ$, ולכן זווית הראש היא $180 - 2 \\times ${baseAngle} = ${vertexAngle}^\\circ$.`;
+            
+            qItem.textMap = {
+                he: `במשולש שווה שוקיים $ABC$ ($AB=AC$) הכלוא בין קווים מקבילים, זווית הבסיס $B$ היא $${baseAngle}^\\circ$. חשב את זווית הראש $A$.`,
+                en: `In an isosceles triangle $ABC$ ($AB=AC$) enclosed between parallel lines, the base angle $B$ is $${baseAngle}^\\circ$. Calculate the vertex angle $A$.`,
+                ar: `في مثلث متساوي الساقين $ABC$ ($AB=AC$) المحصور بين خطين متوازيين، زاوية القاعدة $B$ تساوي $${baseAngle}^\\circ$. احسب زاوية الرأس $A$.`,
+                ru: `В равнобедренном треугольнике $ABC$ ($AB=AC$), заключенном между параллельными прямыми, угол при основании $B$ равен $${baseAngle}^\\circ$. Найдите угол при вершине $A$.`
+            };
+            qItem.expMap = {
+                he: `במשולש שווה שוקיים זוויות הבסיס שוות ($C = B = ${baseAngle}^\\circ$). מכיוון שסכום הזוויות במשולש הוא $180^\\circ$, נקבל: $180 - 2 \\times ${baseAngle} = ${vertexAngle}^\\circ$.`,
+                en: `In an isosceles triangle, base angles are equal ($C = B = ${baseAngle}^\\circ$). Since the triangle sum theorem states angles add to $180^\\circ$: $180 - 2 \\times ${baseAngle} = ${vertexAngle}^\\circ$.`,
+                ar: `في المثلث متساوي الساقين، زوايا القاعدة متطابقة ($C = B = ${baseAngle}^\\circ$). وبما أن مجموع زوايا المثلث هو $180^\\circ$: $180 - 2 \\times ${baseAngle} = ${vertexAngle}^\\circ$.`,
+                ru: `В равнобедренном треугольнике углы при основании равны ($C = B = ${baseAngle}^\\circ$). Так как сумма углов треугольника равна $180^\\circ$: $180 - 2 \\times ${baseAngle} = ${vertexAngle}^\\circ$.`
+            };
+            
             qItem.ans = `$${vertexAngle}^\\circ$`;
             qItem.opts = [qItem.ans, `$${baseAngle}^\\circ$`, `$90^\\circ$`, `$${vertexAngle + 15}^\\circ$`].sort(() => Math.random() - 0.5);
             qItem.svg = generateTriangleSVG('A = ?', `B = ${baseAngle}°`, `C = ?`);
         }
         else if (subType === 3) {
-            // תבנית 4: משולש ישר זווית כלוא
-            let acute1 = Math.floor(Math.random() * 15) + 35; // 35..49
+            let acute1 = Math.floor(Math.random() * 15) + 35; 
             let acute2 = 90 - acute1;
             qItem.badgeType = 'badge-triangle';
             qItem.badgeLabel = data.catTriangle;
-            qItem.text = currentLang === 'he'
-                ? `במשולש ישר זווית $ABC$ (כאשר $\\angle B = 90^\\circ$), נתון כי הזווית החדה $C$ היא $${acute1}^\\circ$. מצא את ערכה של הזווית $A$.`
-                : `In a right-angled triangle $ABC$ (where $\\angle B = 90^\\circ$), the acute angle $C$ is $${acute1}^\\circ$. Find angle $A$.`;
-            qItem.exp = `במשולש ישר זווית, שתי הזוויות החדות משלימות ל-$90^\\circ$. לכן: $90^\\circ - ${acute1}^\\circ = ${acute2}^\\circ$.`;
+            
+            qItem.textMap = {
+                he: `במשולש ישר זווית $ABC$ (כאשר $\\angle B = 90^\\circ$), נתון כי הזווית החדה $C$ היא $${acute1}^\\circ$. מצא את ערכה של הזווית החדה השנייה $A$.`,
+                en: `In a right-angled triangle $ABC$ (where $\\angle B = 90^\\circ$), the acute angle $C$ is $${acute1}^\\circ$. Find the other acute angle $A$.`,
+                ar: `في مثلث قائم الزاوية $ABC$ (حيث $\\angle B = 90^\\circ$)، الزاوية الحادة $C$ تساوي $${acute1}^\\circ$. أوجد قياس الزاوية الحادة الأخرى $A$.`,
+                ru: `В прямоугольном треугольнике $ABC$ (где $\\angle B = 90^\\circ$) острый угол $C$ равен $${acute1}^\\circ$. Найдите второй острый угол $A$.`
+            };
+            qItem.expMap = {
+                he: `במשולש ישר זווית, שתי הזוויות החדות משלימות זו את זו ל-$90^\\circ$ בדיוק. לכן: $90^\\circ - ${acute1}^\\circ = ${acute2}^\\circ$.`,
+                en: `In a right triangle, the two acute angles are complementary (sum up to $90^\\circ$). Thus: $90^\\circ - ${acute1}^\\circ = ${acute2}^\\circ$.`,
+                ar: `في المثلث القائم، الزاويتان الحادتان متمامتان (مجموعهما $90^\\circ$). إذن: $90^\\circ - ${acute1}^\\circ = ${acute2}^\\circ$.`,
+                ru: `В прямоугольном треугольнике сумма двух острых углов всегда равна $90^\\circ$. Таким образом: $90^\\circ - ${acute1}^\\circ = ${acute2}^\\circ$.`
+            };
+            
             qItem.ans = `$${acute2}^\\circ$`;
             qItem.opts = [qItem.ans, `$${acute1}^\\circ$`, `$45^\\circ$`, `$60^\\circ$`].sort(() => Math.random() - 0.5);
             qItem.svg = generateTriangleSVG('A = ?', 'B = 90°', `C = ${acute1}°`, true);
         }
         else if (subType === 4) {
-            // תבנית 5: גיאומטריה - זוויות קודקודיות (Vertical Angles)
             qItem.badgeType = 'badge-geometry';
             qItem.badgeLabel = data.catGeometry;
-            qItem.text = currentLang === 'he'
-                ? `בצומת העליון, אם הזווית הקהה המזרחית $Z$ היא $${baseObtuse}^\\circ$, מהו ערכה של הזווית הקודקודית לה $Y$?`
-                : `At the upper intersection, if the eastern obtuse angle $Z$ is $${baseObtuse}^\\circ$, what is the value of its vertical angle $Y$?`;
-            qItem.exp = `זוויות קודקודיות נוצרות על ידי שני ישרים מצטלבים והן שוות תמיד בגודלן, לכן $Y = Z = ${baseObtuse}^\\circ$.`;
+            
+            qItem.textMap = {
+                he: `בצומת העליון של החיתוך, אם הזווית הקהה $Z$ שווה ל-$${baseObtuse}^\\circ$, מהו ערכה של הזווית הקודקודית לה $Y$?`,
+                en: `At the upper intersection node, if the obtuse angle $Z$ equals $${baseObtuse}^\\circ$, what is the value of its vertical angle $Y$?`,
+                ar: `عند التقاطع العلوي، إذا كانت الزاوية المنفرجة $Z$ تساوي $${baseObtuse}^\\circ$، فما هو قياس الزاوية المتقابلة معها بالرأس $Y$؟`,
+                ru: `Если на верхнем пересечении тупой угол $Z$ равен $${baseObtuse}^\\circ$, какова величина вертикального ему угла $Y$?`
+            };
+            qItem.expMap = {
+                he: `זוויות קודקודיות נוצרות על ידי שני קווים מצטלבים והן תמיד שוות לחלוטין בגודלן, לכן $Y = Z = ${baseObtuse}^\\circ$.`,
+                en: `Vertical angles are formed by two intersecting lines and are always completely equal in size, so $Y = Z = ${baseObtuse}^\\circ$.`,
+                ar: `الزوايا المتقابلة بالرأس تنتج عن تقاطع مستقيمين وتكون دائماً متساوية تماماً في القياس، لذا $Y = Z = ${baseObtuse}^\\circ$.`,
+                ru: `Вертикальные углы образуются при пересечении двух прямых и всегда равны между собой, поэтому $Y = Z = ${baseObtuse}^\\circ$.`
+            };
+            
             qItem.ans = `$${baseObtuse}^\\circ$`;
             qItem.opts = [qItem.ans, `$${baseAcute}^\\circ$`, `$180^\\circ$`, `$90^\\circ$`].sort(() => Math.random() - 0.5);
             qItem.svg = generateStandardSVG({Z: baseObtuse + '°', Y: '?'}, {});
         }
         else if (subType === 5) {
-            // תבנית 6: גיאומטריה - זוויות מתאימות (Corresponding)
             qItem.badgeType = 'badge-geometry';
             qItem.badgeLabel = data.catGeometry;
-            qItem.text = currentLang === 'he'
-                ? `אם הזווית החדה $W$ בצומת העליון שווה ל-$${baseAcute}^\\circ$, מהו ערכה של הזווית המתאימה לה $W$ בצומת התחתון?`
-                : `If the acute angle $W$ at the top node equals $${baseAcute}^\\circ$, what is the value of its corresponding angle $W$ at the bottom node?`;
-            qItem.exp = `בין ישרים מקבילים, זוויות מתאימות שנמצאות באותו מיקום יחסי בשני הצמתים שוות לחלוטין: $${baseAcute}^\\circ$.`;
+            
+            qItem.textMap = {
+                he: `אם הזווית החדה $W$ בצומת העליון שווה ל-$${baseAcute}^\\circ$, מהו ערכה של הזווית המתאימה לה $W$ בצומת התחתון?`,
+                en: `If the acute angle $W$ at the upper node equals $${baseAcute}^\\circ$, what is the value of its corresponding angle $W$ at the lower node?`,
+                ar: `إذا كانت الزاوية الحادة $W$ عند التقاطع العلوي تساوي $${baseAcute}^\\circ$، فما هو قياس الزاوية المتناظرة معها $W$ عند التقاطع السفلي؟`,
+                ru: `Если острый угол $W$ на верхнем пересечении равен $${baseAcute}^\\circ$, какова величина соответственного ему угла $W$ на нижнем пересечении?`
+            };
+            qItem.expMap = {
+                he: `בין שני ישרים מקבילים הנחתכים על ידי קו שלישי, זוויות מתאימות הנמצאות באותו מיקום יחסי שוות זו לזו: $${baseAcute}^\\circ$.`,
+                en: `Between parallel lines intersected by a transversal, corresponding angles in the same relative position are equal: $${baseAcute}^\\circ$.`,
+                ar: `بين مستقيمين متوازيين يقطعهما قاطع، تكون الزوايا المتناظرة الواقعة في نفس الموقع النسبي متساوية: $${baseAcute}^\\circ$.`,
+                ru: `При пересечении параллельных прямых секущей соответственные углы, находящиеся в одинаковом положении, равны: $${baseAcute}^\\circ$.`
+            };
+            
             qItem.ans = `$${baseAcute}^\\circ$`;
             qItem.opts = [qItem.ans, `$${baseObtuse}^\\circ$`, `$90^\\circ$`, `$45^\\circ$`].sort(() => Math.random() - 0.5);
             qItem.svg = generateStandardSVG({W: baseAcute + '°'}, {W: '?'});
         }
         else if (subType === 6) {
-            // תבנית 7: אלגברה מורכבת - שוויון ביטויים (זוויות מתאימות עם איקס משני האגפים)
-            // 3x + 10 = 2x + 30  => x = 20 => זוויות שוות ל-70
             qItem.badgeType = 'badge-algebra';
             qItem.badgeLabel = data.catAlgebra;
-            qItem.text = currentLang === 'he'
-                ? `נתונות שתי זוויות מתאימות המיוצגות על ידי הביטויים: $W = 3x + 10^\\circ$ ו-$W = 2x + 30^\\circ$. מצא את ערכו של $x$.`
-                : `Given two corresponding angles represented by: $W = 3x + 10^\\circ$ and $W = 2x + 30^\\circ$. Find $x$.`;
-            qItem.exp = `מאחר שהזוויות מתאימות, הן שוות: $3x + 10 = 2x + 30$. נחסיר $2x$ ונחסיר 10 משני האגפים ונקבל $x = 20$.`;
+            
+            qItem.textMap = {
+                he: `נתונות שתי זוויות מתאימות המיוצגות על ידי הביטויים: $W = 3x + 10^\\circ$ ו-$W = 2x + 30^\\circ$. חשב את ערכו של $x$.`,
+                en: `Given two corresponding angles represented by the expressions: $W = 3x + 10^\\circ$ and $W = 2x + 30^\\circ$. Find the value of $x$.`,
+                ar: `إذا كانت هناك زاويتان متناظرتان ممثلتان بالعبارات: $W = 3x + 10^\\circ$ و $W = 2x + 30^\\circ$. احسب قيمة $x$.`,
+                ru: `Даны два соответственных угла, выраженных как: $W = 3x + 10^\\circ$ и $W = 2x + 30^\\circ$. Найдите значение $x$.`
+            };
+            qItem.expMap = {
+                he: `מכיוון שהזוויות מתאימות, הן שוות בגודלן: $3x + 10 = 2x + 30$. נעביר אגפים ($3x - 2x = 30 - 10$) ונקבל $x = 20$.`,
+                en: `Since the angles are corresponding, they are equal: $3x + 10 = 2x + 30$. Rearranging terms ($3x - 2x = 30 - 10$) yields $x = 20$.`,
+                ar: `بما أن الزاويتين متناظرتان، فهما متساويتان: $3x + 10 = 2x + 30$. بترتيب أطراف المعادلة ($3x - 2x = 30 - 10$) نجد أن $x = 20$.`,
+                ru: `Так как углы соответственные, они равны: $3x + 10 = 2x + 30$. Перенося слагаемые ($3x - 2x = 30 - 10$), получаем $x = 20$.`
+            };
+            
             qItem.ans = `$x = 20$`;
             qItem.opts = [qItem.ans, `$x = 10$`, `$x = 15$`, `$x = 25$`].sort(() => Math.random() - 0.5);
             qItem.svg = generateStandardSVG({W: '3x+10'}, {W: '2x+30'});
         }
         else {
-            // תבנית 8: זווית חיצונית למשולש
             let intA = 60;
             let intB = 70;
-            let extC = intA + intB; // 130
+            let extC = intA + intB; 
             qItem.badgeType = 'badge-triangle';
             qItem.badgeLabel = data.catTriangle;
-            qItem.text = currentLang === 'he'
-                ? `במשולש $ABC$, נתון כי הזווית הפנימית $A = 60^\\circ$ והזווית הפנימית $B = 70^\\circ$. מהו ערכה של הזווית החיצונית המשלימה לצד $C$?`
-                : `In triangle $ABC$, internal angle $A = 60^\\circ$ and internal angle $B = 70^\\circ$. What is the value of the exterior angle at vertex $C$?`;
-            qItem.exp = `זווית חיצונית למשולש שווה לסכום שתי הזוויות הפנימיות שאינן צמודות לה. לכן: $60^\\circ + 70^\\circ = ${extC}^\\circ$.`;
+            
+            qItem.textMap = {
+                he: `במשולש $ABC$, נתון כי הזווית הפנימית $A = 60^\\circ$ והזווית הפנימית $B = 70^\\circ$. מהו גודלה של הזווית החיצונית למשולש בקודקוד $C$?`,
+                en: `In triangle $ABC$, internal angle $A = 60^\\circ$ and internal angle $B = 70^\\circ$. What is the value of the exterior angle at vertex $C$?`,
+                ar: `في المثلث $ABC$، إذا كانت الزاوية الداخلية $A = 60^\\circ$ والزاوية الداخلية $B = 70^\\circ$. فما هو قياس الزاوية الخارجية للمثلث عند الرأس $C$؟`,
+                ru: `В треугольнике $ABC$ внутренний угол $A = 60^\\circ$, а внутренний угол $B = 70^\\circ$. Чему равен внешний угол треугольника при вершине $C$?`
+            };
+            qItem.expMap = {
+                he: `זווית חיצונית למשולש שווה לסכום שתי הזוויות הפנימיות שאינן צמודות לה. לכן: $60^\\circ + 70^\\circ = ${extC}^\\circ$.`,
+                en: `An exterior angle of a triangle is equal to the sum of the two non-adjacent interior angles. Therefore: $60^\\circ + 70^\\circ = ${extC}^\\circ$.`,
+                ar: `الزاوية الخارجية للمثلث تساوي مجموع الزاويتين الداخليتين غير المجاورتين لها. وبناءً عليه: $60^\\circ + 70^\\circ = ${extC}^\\circ$.`,
+                ru: `Внешний угол треугольника равен сумме двух внутренних углов, не смежных с ним. Таким образом: $60^\\circ + 70^\\circ = ${extC}^\\circ$.`
+            };
+            
             qItem.ans = `$${extC}^\\circ$`;
             qItem.opts = [qItem.ans, `$50^\\circ$`, `$110^\\circ$`, `$180^\\circ$`].sort(() => Math.random() - 0.5);
             qItem.svg = generateTriangleSVG('A = 60°', 'B = 70°', 'Ext C = ?');
@@ -530,14 +658,14 @@ function generateQuiz() {
         questionPool.push(qItem);
     }
 
-    // ערבוב אקראי מוחלט של מאגר השאלות כדי למנוע חזרתיות סדרתית
+    // ערבוב אקראי מוחלט של השאלות
     questionPool.sort(() => Math.random() - 0.5);
 
-    // בניית ה-HTML של השאלות המעורבבות
+    // בניית ה-HTML הדינמי המבוסס על השפה הנבחרת בזמן אמת
     questionPool.forEach((q, idx) => {
         const i = idx + 1;
         quizAnswers.push(q.ans);
-        quizExplanations.push(q.exp);
+        quizExplanations.push(q.expMap[currentLang]);
 
         const qBlock = document.createElement('div');
         qBlock.className = 'question-block';
@@ -548,7 +676,7 @@ function generateQuiz() {
         qBlock.appendChild(badge);
 
         const qTitle = document.createElement('p');
-        qTitle.innerHTML = `<strong>${i}.</strong> ${q.text}`;
+        qTitle.innerHTML = `<strong>${i}.</strong> ${q.textMap[currentLang]}`;
         qBlock.appendChild(qTitle);
 
         const imgWrapper = document.createElement('div');
